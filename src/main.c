@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define WEIGHT_PR_MOTOR 5.6
+// #define WEIGHT_PR_MOTOR 5.6
 
 // Init variables:
 float num_motor = 0.0;   // User input - number of motors
@@ -19,7 +19,7 @@ int main() {
   scanf("%f", &pack_kg);
 
   // Calculating the total weight the motors can carry
-  total_motor = num_motor * WEIGHT_PR_MOTOR;
+  total_motor = num_motor * 5.6;
 
   // Checking if package weight does not exceed
   // the weight that the motor can carry.

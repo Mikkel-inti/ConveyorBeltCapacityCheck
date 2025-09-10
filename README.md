@@ -1,6 +1,6 @@
 # ConveyorBeltCapacityCheck
 
-## Description
+## Beskrivelse
 
 Et program i C, der beregner om et transportbånd kan bære en given vægt (kg) af pakker.
 Brugeren indtaster antal motorer og den samlede vægt, 
@@ -10,3 +10,5 @@ Hvis transportbåndet IKKE kan, udskrives:  No. The conveyor belt cannot carry t
 
 
 # Flowdiagram over programmet:
+![Flowdiagram](ConveyorBeltCapacityCheck_flowdiagram.svg)
+
